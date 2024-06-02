@@ -8,9 +8,9 @@ You can safely delete this README.md file or change it for your own project. Ple
 
 ## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
+serverTo run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+python3 -m http.
+``
 
 A blue button should appear to click: _Make Public_,
 
@@ -29,7 +29,7 @@ To log into the Heroku toolbelt CLI:
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
 2. Scroll down to the *API Key* and click *Reveal*
 3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
+4. In Gitpod, from the terminal, run heroku_config``
 5. Paste in your API key when asked
 
 You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
