@@ -1,17 +1,17 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family= Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900 &family=Oswald:wght@200..700&display=swap');
- 
+
 .lato-regular-italic {
     font-family: "Lato", sans-serif;
     font-weight: 400;
     font-style: italic;
-}  
+}
 
-  .barlow-light {
+.barlow-light {
     font-family: "Barlow", sans-serif;
     font-weight: 300;
     font-style: normal;
-  }
+}
 
 /*Asterisk wildcart selector to override default styles added by the browser*/
 * {
@@ -41,7 +41,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    
+
 }
 
 header a {
@@ -66,12 +66,12 @@ footer {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-    
+
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
-    
+
 }
 
 .active {
@@ -107,12 +107,13 @@ nav {
 main {
     background-color: lightblue;
     /*make main element to take up any suplus space to push footer down*/
-    flex: 1 0 auto; 
+    flex: 1 0 auto;
     margin-top: 47px;
 }
 
 /* Media queri: for Tablets and larger (768px or more) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -121,24 +122,37 @@ main {
         width: fit-content;
         padding: 1rem;
     }
+
     #menu {
         display: flex;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 1rem;
     }
+
     .nav-toggle-label {
         display: none;
     }
+
+    #logo {
+        font-size: 200px;
+        line-height: 75px;
+        margin: 0 0 5rem;
+    }
+
+    /* main content */
+    main {
+        /* Push main content down to accomodate larger header */
+        margin-top: 79px;
+    }
 }
- #logo {
-    font-size: 200px;
-    line-height: 75px;
-    margin: 0 0 5rem;
- }
 
- /* Push main content down to accomodate larger header */ 
- main {
-    margin-top: 75px;
- }
+/*Large devices (Laptop and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+        
+    }
 
+}
