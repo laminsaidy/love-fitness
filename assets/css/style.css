@@ -58,8 +58,12 @@ h1 {
 
 
 /*footer*/
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 #menu {
@@ -109,6 +113,14 @@ main {
     /*make main element to take up any suplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+#social-networks i {
+    font-size: 160px;
+    padding: 5%;
+    color: #3a3a3a;
+
+
 }
 
 /* Media queri: for Tablets and larger (768px or more) */
