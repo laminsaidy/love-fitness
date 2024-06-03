@@ -130,7 +130,15 @@ main {
     .nav-toggle-label {
         display: none;
     }
-
 }
-    
+ #logo {
+    font-size: 200px;
+    line-height: 75px;
+    margin: 0 0 5rem;
+ }
+
+ /* Push main content down to accomodate larger header */ 
+ main {
+    margin-top: 75px;
+ }
 
