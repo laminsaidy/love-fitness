@@ -56,16 +56,6 @@ h1 {
     color: #252525;
 }
 
-
-/*footer*/
-#social-networks {
-    text-align: center;
-    padding: 20px 0;
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
-}
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -73,7 +63,7 @@ h1 {
 
 }
 
-#menu>li {
+#menu > li {
     margin-bottom: 1em;
 
 }
@@ -90,7 +80,7 @@ nav {
     left: 0;
     padding: 0 1rem;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: none;
+    display: none;   
     top: 100%;
 }
 
@@ -109,19 +99,37 @@ nav {
 
 /*main content*/
 main {
-    background-color: lightblue;
     /*make main element to take up any suplus space to push footer down*/
     flex: 1 0 auto;
     margin-top: 47px;
+    
+}
+
+/* Hero section */
+main {
+    height: 600%;
+    width: 100%;
+    background: url("../images/hero-image.webp") no-repeat center center/cover;
+    
+}
+
+
+/*footer*/
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
 #social-networks i {
-    font-size: 160px;
+    font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
-
-
 }
+
+
 
 /* Media queri: for Tablets and larger (768px or more) */
 @media screen and (min-width: 768px) {
@@ -139,7 +147,7 @@ main {
         display: flex;
     }
 
-    #menu>li {
+    #menu > li {
         padding-left: 1rem;
     }
 
@@ -164,7 +172,7 @@ main {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
-        
+
     }
 
 }
