@@ -46,7 +46,7 @@ h3 {
 /*header*/
 header {
     background-color: #ffffff;
-    padding: 0;
+    padding: 0 rem;
     position: fixed;
     z-index: 99;
     width: 100%;
