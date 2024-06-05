@@ -254,7 +254,7 @@ main {
     flex-direction: column;
 }
 
-/* Form */
+  /* Form */
 #signup {
     background-image: url("../images/signup-image.webp");
     background-size: cover;
