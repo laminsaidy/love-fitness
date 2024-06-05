@@ -100,16 +100,20 @@ nav {
     font-size: 2rem;
 }
 
-/*main content*/
+/* Main content */
 main {
-    /*make main element to take up any suplus space to push footer down*/
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
+}
+
+/*hero content*/
+#hero {
     height: 600%;
     width: 100%;
     background: url("../images/hero-image.webp") no-repeat center center/cover;
     position: relative;
-
+    margin-bottom: 600px
 }
 
 #cover-text {
@@ -130,14 +134,58 @@ main {
         0px 0px 15px white,
         15px 10px 10px black,
 
-
-
 }
 
 #cover-text>h2,
 #cover-text>h3 {
     color: #ffffff;
 
+}
+
+/* Reasons section */
+#reasons {
+    width: 90%;
+    margin: 20px auto;   
+
+}
+
+#reaons h2 {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefits-physical>div,
+#benefits-mental>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /*footer*/
@@ -154,33 +202,6 @@ main {
     padding: 5%;
     color: #3a3a3a;
 }
-
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
-
-#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
-}
-
-#benefits-physical > div,
-#benefits-mental > div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#benefits p {
-    padding: 0 20px;
-}
-
-hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
-
 
 
 /* Media queri: for Tablets and larger (768px or more) */
